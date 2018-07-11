@@ -35,6 +35,7 @@ python create_library\images_split_train_test.py -p 0.5
 ```
 python create_groundtruth\label_1image_crf.py -w 600 -s 0.25
 ```
+CBD: 600 is the window size for categorizing that Dan selected, can optimize as needed
 
 * Select an image
 * Select a labels file
